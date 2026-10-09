@@ -1,6 +1,6 @@
+const { leerConfiguracion } = require("./config/entorno");
 const { crearServicioReservas } = require("./servicios/reservas");
 const { crearApp } = require("./app");
-const { leerConfiguracion } = require("./configuracion");
 
 const reservasIniciales = [
   {
