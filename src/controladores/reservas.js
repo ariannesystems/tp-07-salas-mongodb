@@ -1,5 +1,4 @@
 function crearControladorReservas(servicioReservas) {
-  
   function listar(req, res) {
     res.status(200).render("reservas/lista", {
       titulo: "Lista de reservas",

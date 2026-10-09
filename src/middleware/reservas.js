@@ -9,7 +9,6 @@ function prepararAreaReservas(req, res, next) {
 
 //MIDDLEWARE: Comprueba que los datos de la reservas sean correctos antes de continuar
 function validarReservas(req, res, next) {
-  
   req.body = req.body || {};
 
   const estudiante = String(req.body.estudiante ?? "").trim();
